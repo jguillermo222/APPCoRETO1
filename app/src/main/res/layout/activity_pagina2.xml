@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pagina2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDFCFC"
+        android:backgroundTint="#FAF8F8"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="30sp"
+            android:text="Confirmar Datos"
+            android:textColor="#616161"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dato21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20sp"
+            android:text="Lorena Hernandez Lopez"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:text="Fecha de Nacimiento: "
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/dato22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="date"
+                android:text="01/01/2020" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tel: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dato23"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:text="5555333"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dato24"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:text="lorena@gmail.com"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dato25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conocí a lorena en un restaurante"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/material_dynamic_neutral60"
+            android:text="Editar datos"
+            android:textSize="20dp"
+            app:strokeColor="#191818"
+            app:strokeWidth="0.8dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
